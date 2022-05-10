@@ -156,7 +156,7 @@ width: 613px;
 height: 110px;
 left: 585px;
 top: 978px;
-font-family: 'Hoss Round';
+font-family: hoss-round, sans-serif;
 font-style: normal;
 font-weight: 400;
 font-size: 28px;
@@ -334,7 +334,7 @@ border-radius: 50px;
   left: 114px;
   top: 200px;
   text-align: left;
-  font-family: 'Hoss Round';
+  font-family: hoss-round, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 28px;
@@ -349,7 +349,7 @@ border-radius: 50px;
   left: 114px;
   top: 300px;
   text-align: left;
-  font-family: 'Hoss Round';
+  font-family: hoss-round, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 28px;
@@ -364,7 +364,7 @@ border-radius: 50px;
   left: 114px;
   top: 460px;
   text-align: left;
-  font-family: 'Hoss Round';
+  font-family: hoss-round, sans-serif;
   font-style: normal;
   font-weight: 300;
   font-size: 20px;
@@ -381,7 +381,7 @@ border-radius: 50px;
   align-content: center;
   position: absolute;
   top: 4000px;
-  font-family: 'Hoss Round';
+  font-family: hoss-round, sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 25px;
@@ -423,7 +423,7 @@ border-radius: 50px;
 }
 
 #user1 h6 {
-  font-family: 'Hoss Round';
+  font-family: hoss-round, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 23px;
@@ -433,7 +433,7 @@ border-radius: 50px;
 }
 
 #user1 p {
-  font-family: 'Helvetica';
+  font-family: helvetica;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -443,7 +443,7 @@ border-radius: 50px;
 }
 
 #user2 h6 {
-  font-family: 'Hoss Round';
+  font-family: hoss-round, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 23px;
@@ -453,7 +453,7 @@ border-radius: 50px;
 }
 
 #user2 p {
-  font-family: 'Helvetica';
+  font-family: helvetica;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -463,7 +463,7 @@ border-radius: 50px;
 }
 
 #user3 h6{
-  font-family: 'Hoss Round';
+  font-family: hoss-round, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 23px;
@@ -544,7 +544,7 @@ border-radius: 50px;
   height: 134px;
   left: 547px;
   top: 400px;
-  font-family: 'Hoss Round';
+  font-family: hoss-round, sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 64px;
@@ -564,7 +564,7 @@ border-radius: 50px;
   border-style: solid;
   border-color: transparent;
   color: white;
-  font-family: 'Hoss Round';
+  font-family: hoss-round, sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
