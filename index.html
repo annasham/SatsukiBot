@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="css/index.css">
+  <script src="js/index.js"></script>
+  <link rel="stylesheet" href="https://use.typekit.net/upf8nkw.css">
+  <script src="https://cdn.jsdelivr.net/npm/@widgetbot/html-embed"></script>
+  <title> Satsuki Bot </title>
+  </head>
+<body>
+  <div class ="introduction">
+      <div id="navBar">
+      <ul>
+    <li><a href="https://huggingface.co/annasham/DialoGPT-small-myneighborTotoro" target="_blank">Dev Notes</a></li>
+    <li><a href="https://discord.com/api/oauth2/authorize?client_id=971833162143531089&permissions=3072&scope=bot" target="_blank">Invite Satsuki</a></li>
+      </ul>
+      </div>
+    <h1> Want a friend to talk to? </h1>
+    <p> Satsuki Bot is a chatbot created to hold a regular conversation with you in your discord server! </p>
+</div>
+
+<div class="buttons">
+<button id="invite" onclick="window.open('https://discord.com/api/oauth2/authorize?client_id=971833162143531089&permissions=3072&scope=bot')">Invite Satsuki</button>
+<button id="joinDev" onclick="window.open('https://discord.gg/MGk4UJYEeN')">Join Dev Community</button>
+</div>
+
+<div id="blockOne">
+<div id="satsukiIMG"></div>
+<h1>How to launch <strong>#SatsukiBot</strong>?</h1>
+<p>Follow these steps closely to successfully launch Satsuki in your discord server!</p>
+</div>
+
+<div id="blockTwo">
+  <h1> Step #1 </h1>
+  <h6>Log in to Discord, invite <strong>#SatsukiBot</strong> into your server!</h6>
+  <p>NOTE: Giving <strong>#SatsukiBot</strong> access to your server allows her to read and send messages in specific channels. </p>
+  <img src="images/log-in.png" width="40%">
+</div>
+
+<div class ="blockThree">
+  <h1> Step #2 </h1>
+  <h6>Give permission to <strong>#SatsukiBot</strong> <strike>to take all your money >:)</strike> to send messages!</h6>
+  <p>NOTE: Satsuki Bot will take around 10-20 seconds to load when first launched. </p>
+  <img src="images/demo-1.png" width="23%" id="one">
+  <img src="images/demo-2.png" width="23%" id="two">
+</div>
+
+<div class="blockFour">
+
+  <h1>Step #3 🎉</h1>
+  <h5>Congrats! You’re finally at Step 3!</h5>
+  <h6>Say <strong>“hello”</strong> and that will start a conversation with Satsuki!</h6>
+  <p>NOTE: Don’t say “father caramel” or any random letters/words, the bot <strong>WILL</strong> crash and send messages that comprise of “!!!!!!!” or “father is a liar”. The response is generated based on the user’s input and the script.</p>
+
+  <div id="widget">
+    <widgetbot
+    server="944338955246108792"
+    channel="971854621104537600"
+    width="800"
+    height="600"
+></widgetbot>
+  </div>
+
+</div>
+
+<div class ="blockFive">
+  <h1> What Users Say About <strong>#SatsukiBot</strong> </h1>
+  <img id="pic1"></img>
+  <div id="user1">
+  <div id="textbox1">
+  <h6>“straight up demonic”</h6>
+  <p>–depressed individual</p>
+  </div>
+  </div>
+  <img id="pic2"></img>
+  <div id="user2">
+  <h6>“Great bot! Satsuki is my best friend.”</h6>
+  <p>–happy individual</p>
+  </div>
+  <img id="pic3"></img>
+  <div id="user3">
+  <h6>“Dysfunctional idk?? Experimental? Turbulent”</h6>
+  <p>–actual user</p>
+  </div>
+</div>
+
+<div class="blockSix">
+  <img></img>
+  <h1>Get <strong>#SatsukiBot</strong> and talk to her now!</h1>
+  <button id="invite2" onclick="window.open('https://discord.com/api/oauth2/authorize?client_id=971833162143531089&permissions=3072&scope=bot')">Invite Satsuki</button>
+  <p> Anna Sham, 2022 </p>
+  <button id="backTop">↥</button>
+  </div>
+  </body>
+
+<script>
+
+  var backTop =
+  document.getElementById("backTop");
+
+  window.onscroll = function()
+  {scrollFunction()};
+
+  function scrollFunction() {
+    if (document.body.scrollTop > 20 ||
+    document.documentElement.scrollTop > 20) {
+      backTop.style.display = "block";
+    } else {
+      backTop.style.display = "none";
+    }
+  }
+
+  function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+
+</script>
+
+</html>

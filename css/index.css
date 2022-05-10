@@ -1,0 +1,588 @@
+body {
+  background-color: #242424;
+  text-align: center;
+}
+
+@font-face {
+font-family: hoss-round, sans-serif;
+font-style: normal;
+}
+
+
+#navBar {
+  display: block;
+  position: absolute;
+  width: 376px;
+  height: 34px;
+  left: 30px;
+  top: 20px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+  font-family: hoss-round, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 18px;
+  text-decoration: none;
+  padding: 10px;
+}
+
+a {
+  text-decoration: none;
+    color: white;
+}
+
+.buttons {
+  display: flex;
+}
+
+#invite{
+  position: absolute;
+  width: 322px;
+  height: 66px;
+  left: 507px;
+  top: 500px;
+  background: #C877EF;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: transparent;
+  box-shadow: 1px 0px 5px #000000;
+  font-family: hoss-round;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+#joinDev {
+  position: absolute;
+  width: 322px;
+  height: 66px;
+  left: 901px;
+  top: 500px;
+  background: #FFFFFF;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: transparent;
+  box-shadow: 1px 0px 5px #000000;
+  font-family: hoss-round;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  text-align: center;
+  color: black;
+}
+
+.introduction {
+  background: rgba(0, 0, 0, 0.5) url("../images/totoro.jpeg");
+  background-size: cover;
+  position: absolute;
+  width: 1728px;
+  height: 772px;
+  left: 0px;
+  background-blend-mode: darken;
+}
+
+.introduction h1 {
+font-family: hoss-round, sans-serif;
+font-weight: 600;
+font-size: 48px;
+font-style: normal;
+color: white;
+line-height: 1;
+position: absolute;
+width: 886px;
+height: 37px;
+left: 406px;
+top: 120px;
+}
+
+.introduction p {
+  font-family: hoss-round, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 28px;
+  line-height: 33.32px;
+  text-align: center;
+  color: white;
+  position: absolute;
+  width: 547px;
+  height: 110px;
+  left: 576px;
+  top: 250px;
+}
+
+#blockOne h1{
+position: absolute;
+width: 657px;
+height: 149px;
+left: 563px;
+top: 800px;
+font-family: hoss-round;
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+text-align: center;
+color: #FFFFFF;
+}
+
+#blockOne p {
+position: absolute;
+width: 613px;
+height: 110px;
+left: 585px;
+top: 978px;
+font-family: 'Hoss Round';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 33px;
+text-align: center;
+color: #FFFFFF;
+}
+
+#satsukiIMG {
+position: absolute;
+width: 186px;
+height: 186px;
+left: 349px;
+top: 810px;
+background: url("../images/satsuki.png");
+background-size: cover;
+display: flex;
+border-radius: 50%;
+}
+
+#blockTwo {
+position: absolute;
+width: 1659px;
+height: 890px;
+left: 34px;
+top: 1150px;
+background: #5A65EA;
+border-radius: 50px;
+}
+
+#blockTwo img {
+  position: absolute;
+  padding-left: 10px;
+  bottom: 200px;
+}
+
+#blockTwo h1 {
+position: absolute;
+font-family: hoss-round;
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+color: #FFFFFF;
+padding-left: 114px;
+padding-top: 50px;
+}
+
+#blockTwo h6 {
+  font-family: hoss-round;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  color: #FFFFFF;
+  text-align: left;
+  /* textbox size */
+  width: 352px;
+  height: 99px;
+  padding-left: 114px;
+  padding-top: 200px;
+}
+
+#blockTwo p {
+  position: absolute;
+  width: 305px;
+  height: 178px;
+  padding-left: 114px;
+  font-family: hoss-round;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  color: #FFFFFF;
+  text-align: left;
+  line-height: 30px;
+}
+
+#blockTwo strong {
+  color: white;
+}
+
+.blockThree strong {
+  color: white;
+}
+
+.blockThree {
+position: absolute;
+width: 1659px;
+height: 890px;
+left: 34px;
+top: 2100px;
+background: #5A65EA;
+border-radius: 50px;
+}
+
+.blockThree h1 {
+  position: absolute;
+  font-family: hoss-round;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  color: #FFFFFF;
+  padding-left: 114px;
+  padding-top: 50px;
+}
+
+.blockThree h6 {
+  font-family: hoss-round;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  color: #FFFFFF;
+  text-align: left;
+  /* textbox size */
+  width: 352px;
+  height: 99px;
+  padding-left: 114px;
+  padding-top: 200px;
+}
+
+.blockThree p {
+  position: absolute;
+  width: 305px;
+  height: 178px;
+  padding-left: 114px;
+  font-family: hoss-round;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  color: #FFFFFF;
+  text-align: left;
+  line-height: 30px;
+}
+
+.blockThree #one {
+  padding-left:10px;
+  position: absolute;
+  bottom: 200px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 5px;
+  left: 615px;
+}
+
+.blockThree #two {
+  left: 1184px;
+  position: absolute;
+  bottom: 200px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 5px;
+}
+
+.blockFour {
+position: absolute;
+width: 1659px;
+height: 890px;
+left: 34px;
+top: 3060px;
+background: #5A65EA;
+border-radius: 50px;
+}
+
+.blockFour h1{
+  position: absolute;
+  font-family: hoss-round;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  color: #FFFFFF;
+  padding-left: 114px;
+  padding-top: 50px;
+}
+
+.blockFour h5{
+  position: absolute;
+  width: 295px;
+  height: 178px;
+  left: 114px;
+  top: 200px;
+  text-align: left;
+  font-family: 'Hoss Round';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 33px;
+  color: #FFFFFF;
+}
+
+.blockFour h6{
+  position: absolute;
+  width: 385px;
+  height: 64px;
+  left: 114px;
+  top: 300px;
+  text-align: left;
+  font-family: 'Hoss Round';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 33px;
+  color: #FFFFFF;
+}
+
+.blockFour p{
+  position: absolute;
+  width: 305px;
+  height: 178px;
+  left: 114px;
+  top: 460px;
+  text-align: left;
+  font-family: 'Hoss Round';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+
+.blockFour strong {
+  color: white;
+}
+
+.blockFive {
+  padding-left: 25%;
+  align-content: center;
+  position: absolute;
+  top: 4000px;
+  font-family: 'Hoss Round';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+#user1 {
+  position: absolute;
+  width: 400px;
+  height: 150px;
+  left: 459px;
+  top: 200px;
+  background: #5A65EA;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+
+#user2 {
+  position: absolute;
+  width: 550px;
+  height: 150px;
+  left: 459px;
+  top: 400px;
+  background: #5A65EA;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+
+#user3 {
+  position: absolute;
+  width: 700px;
+  height: 150px;
+  left: 459px;
+  top: 600px;
+  background: #5A65EA;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+
+#user1 h6 {
+  font-family: 'Hoss Round';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  text-align: left;
+  padding-left: 50px;
+  line-height: 0;
+}
+
+#user1 p {
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  color: #FFFFFF;
+  text-align: left;
+  padding-left: 50px;
+}
+
+#user2 h6 {
+  font-family: 'Hoss Round';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  text-align: left;
+  padding-left: 50px;
+  line-height: 0;
+}
+
+#user2 p {
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  color: #FFFFFF;
+  text-align: left;
+  padding-left: 50px;
+}
+
+#user3 h6{
+  font-family: 'Hoss Round';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  text-align: left;
+  padding-left: 50px;
+  line-height: 0;
+}
+
+#user3 p {
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  color: #FFFFFF;
+  text-align: left;
+  padding-left: 50px;
+}
+
+#pic1 {
+  border-radius: 50%;
+  background: url("../images/user1.jpg");
+  background-size: cover;
+  position: absolute;
+  width: 143px;
+  height: 143px;
+  left: 124px;
+  top: 200px;
+}
+
+#pic2 {
+  border-radius: 50%;
+  background: url("../images/user2.jpg");
+  background-size: cover;
+  position: absolute;
+  width: 143px;
+  height: 143px;
+  left: 124px;
+  top: 400px;
+}
+
+#pic3 {
+  border-radius: 50%;
+  background: url("../images/user3.jpg");
+  background-size: cover;
+  position: absolute;
+  width: 143px;
+  height: 143px;
+  left: 124px;
+  top: 600px;
+}
+
+.blockSix {
+  position: absolute;
+  width: 1728px;
+  height: 1000px;
+  left: 0px;
+  top: 4900px;
+  background: url('../images/footer.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.blockSix img {
+  position: absolute;
+  width: 186px;
+  height: 186px;
+  left: 773px;
+  top: 200px;
+  background: url("../images/satsuki.png");
+  background-size: cover;
+  display: flex;
+  border-radius: 50%;
+}
+
+.blockSix h1{
+  position: absolute;
+  width: 638px;
+  height: 134px;
+  left: 547px;
+  top: 400px;
+  font-family: 'Hoss Round';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 76px;
+  text-align: center;
+  color: white;
+}
+
+#invite2 {
+  position: absolute;
+  width: 322px;
+  height: 66px;
+  left: 703px;
+  top: 700px;
+  background: #C877EF;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: transparent;
+  color: white;
+  font-family: 'Hoss Round';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 33px;
+  text-align: center;
+  box-shadow: 1px 0px 5px #000000;
+}
+
+strong {
+  color: #C877EF;
+}
+
+#widget {
+  position: absolute;
+  width: 986px;
+  height: 749px;
+  left: 667px;
+  top: 100px;
+}
+
+.blockSix p {
+  color: white;
+  font-family: hoss-round, sans-serif;
+  font-size: 15px;
+  padding-top: 900px;
+}
+
+#backTop {
+  position: absolute;
+  width: 115px;
+  height: 115px;
+  left: 1500px;
+  top: 850px;
+  background-color: transparent;
+  color: white;
+  border-style: none;
+  border-color: transparent;
+  font-size: 50px;
+}
