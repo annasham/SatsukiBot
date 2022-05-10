@@ -8,6 +8,24 @@ font-family: hoss-round, sans-serif;
 font-style: normal;
 }
 
+h1{
+  font-family: hoss-round, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+}
+
+h6{
+  font-family: hoss-round, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+p{
+  font-family: hoss-round, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+}
+
 
 #navBar {
   display: block;
